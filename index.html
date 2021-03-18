@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>	
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		
+		<div class="top">
+			<h1> M&S </h1>
+		</div>
+		
+		<div class="meniu col-md-12">
+			<ul>
+				<li><a href="home.html"><i class="fas fa-home"></i> Noutati</a></li>
+				<li><a href="filme.html">Filme</a></li>
+				<li><a href="seriale.html">Seriale</a></li>
+				<div class="search-container">
+						<form action="/action_page.php">
+						  <input type="text" placeholder="Cauta.." name="search">
+						  <button type="submit"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+			</ul>
+		</div>
+		<div> &nbsp; </div>
+		<div class="news col-md-12">
+		<h2> <font color="white">Episoade noi</font></h2>
+			<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="img/riverdale.jpg" style="width:25%">
+			  <div class="text">
+			  <h3>Riverdale</h3>
+			  <h4>Sez.3 Ep.17</h4>
+			  <br>În timp ce Betty îi cere lui Cheryl sa se infiltreze în Farm, Archie si Veronica ajuta un aliat din trecutul sau. Între timp, încercarea lui Jughead de a pune capat comertului cu droguri de la Riverdale îl face sa intre într-un curs de coliziune cu Gladys. În cele din urma, Hiram îi sparge unele veste surprinzatoare lui Veronica.
+			  </div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="img/dynasty.jpg" style="width:25%">
+			  <div class="text">
+			  <h3>Dynasty</h3>
+			  <h4>Sez.2 Ep.13</h4>
+			  <br>Cristal si Blake au un vizitator surpriza care incearca sa le distruga relatia, în timp ce Fallon se confunta cu  Culhane care devine un jucator de putere în Carrington Atlantic.
+			  </div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="img/s-cinci.jpg" style="width:25%">
+			  <div class="text">
+			  <h3>The Bold Type</h3>
+			  <h4>Sez.2 Ep.10</h4>
+			  <br>Sentimentele profesionale ale lui Sutton se împlinesc când pleaca în Paris pentru Saptamâna Modei, dar în timp ce ea câstiga o noua perspectiva asupra situatiei sale. Jane avanseaza cu planul sau de fertilitate pâna când afla informatii surprinzatoare despre optiunile ei si se confrunta cu solutiile diferite ale lui Ben si Pinstripe. Kat se confrunta cu o presiune din partea lui Jacqueline, pentru a-si face succesul la Paris, încercând sa-si restabileasca relatia cu Adena.
+			  </div>
+			</div>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</div>
+		</div>
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";  
+			  }
+			  slideIndex++;
+			  if (slideIndex > slides.length) {slideIndex = 1}    
+			  for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			  setTimeout(showSlides, 7500); // Change image every  seconds
+			}
+		</script>
+		<div> &nbsp;		</div>
+		<div class="content col-md-14">
+			<table width="100%">
+				<h2> <font color="white">Filme 2019</font></h2>
+				<tr>
+					<td align="center" width="20%" ><div class="polaroid">
+					  <img src="img/unu.jpg" alt="Alita: Battle Angel" style="width:100%" >
+						
+							<p><a href="https://www.imdb.com/title/tt0437086/?ref_=nv_sr_1"><strong>Alita: Battle Angel</strong></p>
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/doi.jpg" alt="Dumbo" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt3861390/?ref_=nv_sr_1"><strong>Dumbo</strong></p>
+						
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/trei.jpg" alt="Shazam!" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt0448115/?ref_=nv_sr_1"><strong>Shazam!</strong></p>
+				
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/patru.jpg" alt="X-Men: Dark Phoenix" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt6565702/?ref_=nv_sr_1"><strong>X-Men: Dark Phoenix</strong></p>
+						
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/cinci.jpg" alt="Toy Story 4" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt1979376/?ref_=nv_sr_1"><strong>Toy Story 4</strong></p>
+						
+					</div></td>
+				</tr>
+				<tr>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/sase.jpg" alt="Once Upon a Time in Hollywood" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt7131622/?ref_=nv_sr_1"><strong>Once Upon a Time in Hollywood</strong></p>
+						
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/sapte.jpg" alt="Joker" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt7286456/?ref_=nv_sr_1"><strong>Joker</strong></p>
+						
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/opt.jpg" alt="STAR WARS: Episodul IX" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt2527338/?ref_=nv_sr_6"><strong>STAR WARS: Episodul IX</strong></p>
+						
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/noua.jpg" alt="Terminator 6" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt6450804/?ref_=nv_sr_1"><strong>Terminator 6</strong></p>
+						
+					</div></td>
+					<td align="center" width="20%"><div class="polaroid">
+					  <img src="img/zece.jpg" alt="Jumanji: Welcome to the Jungle" style="width:100%">
+						
+							<p><a href="https://www.imdb.com/title/tt7975244/?ref_=nv_sr_1"><strong>Jumanji: Welcome to the Jungle</strong></p>
+						
+					</div></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+</body>
+<html>
